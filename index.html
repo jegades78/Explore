@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <!--font awesome cdn link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <!--custom css file link-->
+        <link rel="stylesheet" href="style.css">
+   
+    </head>
+    <body>
+
+        <header>
+            <div id="menu-bar" class="fas fa-bars"></div>
+
+            <a href="#" class="logo"><span>E</span>xplore</a>
+
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#map">book</a>
+                <a href="#serv">services</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <!--<i class="fas fa-user" id="login-btn"></i>-->
+            </div>
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here..">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+        </header>
+<!--home section starts-->
+<section class="home" id="home">
+    <div class="content">
+        <h3>adventure is worth while</h3>
+        <p>discover new places with us, adventure await</p>
+        <a href="#map" class="btn">discover more</a>
+    </div>
+    <div class="controls">
+        <span class="vid-btn active" data-src="E:\8th sem\project\video\nature.mp4"></span>
+        <span class="vid-btn" data-src="E:\8th sem\project\video\hist.mp4"></span>
+        <span class="vid-btn" data-src="E:\8th sem\project\video\thing.mp4"></span>
+        <span class="vid-btn" data-src="E:\8th sem\project\video\food.mp4"></span>
+        <!--<span class="vid-btn" data-src="E:\8th sem\project\video\hist.mp4"></span>-->
+     </div>
+    
+     <div class="video-container">
+        <video src="E:\8th sem\project\video\nature.mp4" id="video-slider" loop autoplay muted></video>
+     </div>
+
+</section>
+<!--home section ends-->
+                 
+				<!-- start footer Area -->	
+                 <!--
+                <section>
+				<footer class="footer-area section-gap">
+					<div class="cont">
+						<div class="row">
+							<div class="col-lg-5 col-md-6 col-sm-6">
+								<div class="single-footer-widget">
+									<h6>About Us</h6>
+									<p>
+										We Provide Tour Plans for your most comfortable travel ever. Let yourself dive into the Beauty, Culture &amp; festivals of India. Have You're Good time at India.
+									</p>
+									<p class="footer-text">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This Website is created with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://github.com/mrjatinchauhan" target="_blank">DJSS</a>
+								</p>	
+								</div>
+							</div>
+							<div class="col-lg-5  col-md-6 col-sm-6">
+								<div class="single-footer-widget">
+									<h6>Newsletter</h6>
+									<p>Stay update with our latest</p>
+									<div class="" id="mc_embed_signup">
+							         <form target="_blank"  action="" method="get" class="form-inline">
+											<input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Your Email Here '" required="" type="email">
+				                            	<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+				                           
+											<div class="info"></div>
+										</form>
+									</div>
+								</div>
+							</div>						
+							<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+								<div class="single-footer-widget">
+									<h6>Follow Us</h6>
+									<p>Let us be social</p>
+									<div class="footer-social d-flex align-items-center">
+										<a href="#"><i class="fa fa-facebook"></i></a>
+										<a href="#"><i class="fa fa-twitter"></i></a>
+										<a href="#"><i class="fa fa-snapchat"></i></a>
+										<a href="#"><i class="fa fa-instagram"></i></a>
+									</div>
+								</div>
+							</div>							
+						</div>
+					</div>
+				</footer>	
+            </section>	
+            -->	
+				<!-- End footer Area -->	
+<div class="grid-container">
+<section>
+    <h1 style="text-align: center; font-size: 20px;" id="map">Click any place from this map to Explore (Note: As of now Only Madurai Available)</h1>
+<img src="E:\8th sem\project\img\tn.png" style="position: absolute;" alt="alt_attribute" width="600" height="700" class="aligncenter" usemap="#shapemap" />
+ 
+    <map name="shapemap">
+         
+        <!-- area tag contained image. -->
+        <area shape="rect" coords="180,420,260,480" href=
+"https://media.geeksforgeeks.org/wp-content/uploads/20190227165802/area2.png"
+        alt="Triangle" class="imcenter" class="grid-item">
+    </map>
+</section>	
+
+<div id="serv" class="page" class="grid-item" style="color: #333;  background: #bdcbe5;
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+font-size: 13px;
+line-height: 1.55;">
+    <h1 style="color: #333;  padding: 40px 0 20px;
+    font: 40px/60px Gabriela, Georgia, serif;
+    text-align: center;
+    text-shadow: 3px 3px rgba(0,0,0,0.1); ">Available Services</h1>      
+
+    
+    <!-- tabs -->
+    <div class="pcss3t pcss3t-effect-scale pcss3t-theme-1">
+      <input type="radio" name="pcss3t" checked  id="tab1"class="tab-content-first">
+      <label for="tab1"><i class="icon-building"></i>Historical Places</label>
+      
+      <input type="radio" name="pcss3t" id="tab2" class="tab-content-2">
+      <label for="tab2"><i class="icon-leaf"></i>Nature Places</label>
+      
+      <input type="radio" name="pcss3t" id="tab3" class="tab-content-3">
+      <label for="tab3"><i class="icon-shopping-cart"></i>Things to Buy</label>
+      
+      <input type="radio" name="pcss3t" id="tab5" class="tab-content-last">
+      <label for="tab5"><i class="icon-food"></i>Traditional Food</label>
+      
+      <ul>
+        <li class="tab-content tab-content-first typography">
+          <h1 style="color: #333;  padding: 40px 0 20px;
+          font: 40px/60px Gabriela, Georgia, serif;
+          text-align: center;
+          text-shadow: 3px 3px rgba(0,0,0,0.1);">Historical Places</h1>
+          <p style="margin-bottom: 40px; text-align: center;">Historic places, Temples, Museums.. etc. Will talks about our Ancestors</p>
+          <!--<p style="margin-bottom: 40px; text-align: center;">Tesla started working in the telephony and electrical fields before emigrating to the United States in 1884 to work for Thomas Edison. He soon struck out on his own with financial backers, setting up laboratories/companies to develop a range of electrical devices. His patented AC induction motor and transformer were licensed by George Westinghouse, who also hired Tesla as a consultant to help develop an alternating current system. Tesla is also known for his high-voltage, high-frequency power experiments in New York and Colorado Springs which included patented devices and theoretical work used in the invention of radio communication, for his X-ray experiments, and for his ill-fated attempt at intercontinental wireless transmission in his unfinished Wardenclyffe Tower project.</p>
+          <p style="margin-bottom: 40px; text-align: center;" class="text-right"><em>Find out more about Nikola Tesla from <a href="http://en.wikipedia.org/wiki/Nikola_Tesla" target="_blank"  class="hova">Wikipedia</a>.</em></p>-->  
+        </li>
+        
+        <li class="tab-content tab-content-2 typography">
+          <h1 style="color: #333;  padding: 40px 0 20px; font: 40px/60px Gabriela, Georgia, serif; text-align: center;
+          text-shadow: 3px 3px rgba(0,0,0,0.1);">Nature Places</h1>
+          <p style="margin-bottom: 40px; text-align: center;">"Adopt the pace of nature. Her secret is patience."</p>
+          <!--<p class="text-right" style="margin-bottom: 40px; text-align: center;"><em>Find out more about Leonardo da Vinci from <a href="http://en.wikipedia.org/wiki/Leonardo_da_Vinci" target="_blank"  class="hova">Wikipedia</a>.</em></p>-->  
+        </li>
+        
+        <li class="tab-content tab-content-3 typography">
+          <h1 style="color: #333; padding: 40px 0 20px; font: 40px/60px Gabriela, Georgia, serif; text-align: center; text-shadow: 3px 3px rgba(0,0,0,0.1); ">Things to Buy</h1>
+          <p style="margin-bottom: 40px; text-align: center;">Say bye to online shopping, Step down to the Market to buy the popular things during Exploration.</p>
+         <!--<p style="margin-bottom: 40px; text-align: center;">Near the beginning of his career, Einstein thought that Newtonian mechanics was no longer enough to reconcile the laws of classical mechanics with the laws of the electromagnetic field. This led to the development of his special theory of relativity. He realized, however, that the principle of relativity could also be extended to gravitational fields, and with his subsequent theory of gravitation in 1916, he published a paper on the general theory of relativity.</p>
+          <p class="text-right" style="margin-bottom: 40px; text-align: center;"><em>Find out more about Albert Einstein from <a href="http://en.wikipedia.org/wiki/Albert_Einstein" target="_blank"  class="hova">Wikipedia</a>.</em></p>-->         
+        </li>
+        
+        <li class="tab-content tab-content-last typography">
+          <div class="typography">
+            <h1 style="color: #333;  padding: 40px 0 20px; font: 40px/60px Gabriela, Georgia, serif;
+            text-align: center; text-shadow: 3px 3px rgba(0,0,0,0.1);  ">Traditional Food Items</h1>
+            <p style="margin-bottom: 40px; text-align: center;">“Let food be thy medicine, thy medicine shall be thy food.” - Enjoy the traditional food of the Places.</p>
+           <!--<p style="margin-bottom: 40px; text-align: center;">Newton's Principia formulated the laws of motion and universal gravitation that dominated scientists' view of the physical universe for the next three centuries. It also demonstrated that the motion of objects on the Earth and that of celestial bodies could be described by the same principles. By deriving Kepler's laws of planetary motion from his mathematical description of gravity, Newton removed the last doubts about the validity of the heliocentric model of the cosmos.</p>
+          <p class="text-right" style="margin-bottom: 40px; text-align: center;"><em>Find out more about Isaac Newton from <a href="http://en.wikipedia.org/wiki/Isaac_Newton" target="_blank" class="hova">Wikipedia</a>.</em></p>-->  
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!--/ tabs -->
+  </div>
+</div>
+
+
+
+
+
+        <!--custom js file lik-->
+        <script src="main/script.js"></script>
+    </body>
+</html>
